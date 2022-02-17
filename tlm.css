@@ -1,0 +1,343 @@
+body{
+    width:100%;
+    
+    
+
+}
+
+#myBtn { /*------Go To Top-------*/
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  padding-right: 20px;
+  
+  
+  border: none;
+  outline: none;
+  background: none;
+  /*color: white;*/
+  cursor: pointer;
+  /*padding: 15px;
+  border-radius: 4px;*/
+   color:#bdbdbd;
+   font-size: 40px;
+  
+}
+
+#myBtn p{
+    font-size: 15px;
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+   
+}
+
+
+.jumbotron{
+        
+    /*margin:-20 0 20px 0;*/
+    
+    
+    background:linear-gradient(
+        rgba(5, 4, 4, 0.5), 
+        rgba(5, 4, 4, 0.1)
+        ),url(mic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+    color:white !important;
+    height:700px;
+    text-align: center;
+    background-size:cover;
+    margin-top:-5%;
+    
+    
+}
+    .navbar{
+    margin-top:1%;
+
+}
+
+
+
+
+ a{
+    color:white;
+    opacity:100%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:2px;
+     text-transform:uppercase;
+     margin-right: 10px;
+    
+   
+}
+
+a:hover {
+  color: #edaa0e;
+}
+
+a.navbar-brand:hover {
+  color: white;
+}
+
+a.navbar-brand{
+    font-size:25px;
+    font-weight:500;
+    margin-top:-1%;
+   
+    
+    
+}
+
+
+.nav-item{
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+div.content{
+    padding-top: 17%;
+
+}
+
+div.content p{
+    color:white;
+    font-size: 20px;
+}
+
+div.content h1{
+    color:white;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*-----------------------Featured Guests-------------------------------*/
+
+div.fg p.g-text{
+    width:200px;
+    overflow: hidden;
+    height:190px;
+      
+
+}
+
+div.fg div {
+   display:inline-block;
+   text-align:center;
+   padding: 50px 90px 0 90px;
+      
+   
+}
+
+div.fg img {
+    height:200px;
+    width:200px;
+    size: 50%;
+    
+   
+}
+
+div.fg{
+    padding-top:15px;
+    text-align:center;
+    padding-bottom:10%;
+
+}
+
+.fg p.name{
+    font-size:18px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+p a.Read{
+    color:blue;
+
+}
+
+/*-----------------------Podcast-------------------------------*/
+
+div.podcast .jumbotron{
+
+    height:300px;
+
+}
+
+.podcast p.cpd{
+    margin-top: -1%;
+
+}
+
+div.podcast h1{
+    font-size: 70px;
+    padding-bottom:10px;
+
+}
+
+
+/*-----------------------Youtube-------------------------------*/
+    iframe{
+        overflow:hidden;
+        margin-top: 30px;
+
+}
+
+
+.youtube{
+    padding-top:15px;
+    text-align:center;
+    padding-bottom:70px;
+    margin-bottom:70px;
+    
+}
+
+.youtube h1{
+    margin-top: -1%;
+    margin-bottom: 2%;
+
+}
+
+@media only screen and (max-width: 749px) {
+  iframe {
+    width:480px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  iframe {
+    transform: scale(1.2);
+  }
+}
+
+/*-----------------------Subscribe-------------------------------*/
+
+div.subscribe .jumbotron{
+
+    height:300px;
+    text-align:center;
+    
+
+}
+
+div.subscribe{
+    margin-bottom:20px;
+        
+}
+
+.subscribe button{
+    margin-top:20px;
+    margin-bottom: 10px;
+
+}
+
+.subscribe p{
+    text-transform:uppercase;
+
+}
+
+.subscribe p.be{
+    margin-top:-3%;
+    margin-bottom: 2px;
+    
+
+}
+
+
+
+
+/*------------------------------FOOTER---------------------------*/
+
+footer{
+    text-align: center;
+    background-color: #010516;
+    padding-bottom:10px;
+    
+
+}
+
+footer h3{
+    color:white;
+    font-family:'Raleway', sans-serif;
+    padding: 20px;
+
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-item a {
+    font-size: 15px;
+   
+    
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-item {
+    margin-top:-3%;
+   
+    
+  }
+}
+
+.nav-item a{
+    text-decoration: none;
+    
+}
+
+   
+
+.nav-item{
+    padding: 0 20px 20px 20px;
+    
+    
+}
+
+
+.sm a i{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.credits{
+    margin-top: -1%;
+
+}
+
+.credits a{
+    font-size: 14px;
+    padding: 0 7px 0 7px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .credits a {
+    font-size: 12px;
+   
+    
+  }
+}
+
+.credits p{
+    margin-bottom: -2px;
+    
+
+}
+    
+
+footer p{
+    padding-top:10px;
+    color:white;
+    opacity: .5;
+    font-size:14px;
+}
