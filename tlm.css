@@ -14,13 +14,9 @@ body{
   
   
   border: none;
-  outline: none;
   background: none;
-  /*color: white;*/
   cursor: pointer;
-  /*padding: 15px;
-  border-radius: 4px;*/
-   color:#bdbdbd;
+   color:#9ac3d0;
    font-size: 40px;
   
 }
@@ -209,17 +205,6 @@ div.podcast h1{
 
 }
 
-@media only screen and (max-width: 749px) {
-  iframe {
-    width:480px;
-  }
-}
-
-@media only screen and (min-width: 750px) {
-  iframe {
-    transform: scale(1.2);
-  }
-}
 
 /*-----------------------Subscribe-------------------------------*/
 
