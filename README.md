@@ -1,11 +1,11 @@
-# lonelymic
+# The Lonely Mic (Home)
 
 Live view: https://cpage2.github.io/lonelymic/phome.html#
 
-#Description
+# Description
 Landing page for a podcast site using parallax scrolling.
 
-#Languages Used
+# Languages Used
 - HTML
 - CSS
 - Bootstrap
