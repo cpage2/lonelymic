@@ -262,17 +262,16 @@ footer h3{
 @media only screen and (max-width: 640px) {
   .nav-item a {
     font-size: 15px;
+    text-decoration: none;
    
     
   }
 
   .podcast h1{
-    font-size: 50px !important;
+    font-size: 40px !important;
 
   }
-}
 
-@media only screen and (max-width: 640px) {
   .nav-item {
     margin-top:-3%;
    
@@ -280,10 +279,6 @@ footer h3{
   }
 }
 
-.nav-item a{
-    text-decoration: none;
-    
-}
 
    
 
